@@ -10,4 +10,4 @@ def choice():
     elif some_str == '1':
         view.view_data(export.from_file())
     else:
-        print('Неверный ввод')
+        view.view_data('Неверный ввод')
